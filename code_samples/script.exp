@@ -55,65 +55,6 @@ Welcome To TataSky Channel Generation Script\r
  Caution: This doesn't promote any kind of hacking or compromising anyone's details\r
 Credits: Gaurav Thakkar (My Github is: https://github.com/ForceGT)\r
 ====================================\r
- Login Status: false\r
-====================================\r
-Menu:\r
-1. Login using Password\r
-2. Login using OTP\r
-3. Generate my playlist \r
-4. Exit\r
-*************************************************************\r
-\r
-\r
-Enter your choice:"
-send -- "1\r"
-expect -exact "1\r
-Enter your Registered Mobile Number without the country code: "
-send -- "#!/bin/bash"
-expect -exact "#!/bin/bash"
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact " "
-send -- ""
-expect -exact "   "
-send -- "9835108613"
-expect -exact "9835108613"
-send -- "\r"
-expect -exact "\r
-Enter your Subscriber Id: "
-send -- "1014560955"
-expect -exact "1014560955"
-send -- "\r"
-expect -exact "\r
-Enter your password: "
-send -- "@Dhanbad12\r"
-expect -exact "@Dhanbad12\r
-Trying to Login with password ............\r
-\r
- \r
-\r
-*************************************\r
-Logged in successfully.\r
-\r
-\r
-**********************************************\r
-Saving user details to userDetails.json so that you don't have to login again\r
-\r
-\r
-====================================\r
  Login Status: true\r
 ====================================\r
 Menu:\r
