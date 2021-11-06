@@ -23,10 +23,10 @@ jobs:
                        chmod 755 *
                        sudo apt-get install expect -y
                        ./script.exp
-                       git clone https://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@gist.github.com/0dfc1ce2d8e040dcebc6a55e9744658f
-                       rm 0dfc1ce2d8e040dcebc6a55e9744658f/allChannelPlaylist.m3u
-                       mv *.m3u 0dfc1ce2d8e040dcebc6a55e9744658f/
-                       cd 0dfc1ce2d8e040dcebc6a55e9744658f
+                       git clone https://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@gist.github.com/566d7787ae023a6a59fd52d682111280
+                       rm 566d7787ae023a6a59fd52d682111280/allChannelPlaylist.m3u
+                       mv *.m3u 566d7787ae023a6a59fd52d682111280/
+                       cd 566d7787ae023a6a59fd52d682111280
                        git add .
                        git commit -m "Playlist has been updated."
                        git push
